@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom_manipulation</title>
+    
+</head>
+<body class="mainBody">
+    <div id="main_container">
+       <div class="insideDiv">
+        <center>
+            <h1 id="mainHeading">List Of Habits </h1>
+            <hr>
+            <ul class="listOfHabits">
+                <li><abbr title="Cricket is an outdoor sport">Cricket</abbr> is one of my hobby</li>
+                <li id="listItem">Learning</li>
+                <li id="listItem">Sleeping</li>
+                <li id="listItem">Eating</li>
+            </ul>
+        </center>
+       </div>
+      
+    </div>
+    <script src="./app.js"></script>
+    
+</body>
+
+</html>
+
+<style>
+    .mainBody{
+        background-color: #5CDB95;
+
+    }
+    #main_container{
+        background-color:white;
+        margin-left: 300px;
+        margin-right: 300px;
+        border-radius: 25px;
+        border:black;
+        border-color: black;
+        border-width: 10px;
+    }
+    .listOfHabits{
+        font-size: large;
+    }
+    .insideDiv{
+        padding: 30px;
+    }
+    #listItem{
+        color: blue;
+    }
+</style>
